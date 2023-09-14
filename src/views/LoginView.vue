@@ -1,25 +1,25 @@
 <template>
     <div class="login-card">
         <!-- Login Inputs -->
-        <div class="user-information">
-            <form action="">
-                <input type="text" class="" name="user_name" v-model="this.user.userName">
-                <input type="password" class="" name="user_password" v-model="this.user.userPassword">
-                <button type="submit">LOGIN</button>
-            </form>  
-        </div>
+        <main class="user-information">
+            <h1 class="title-information">Information</h1>
+            <input type="text" class="input-information" name="user-name" v-model="this.user.userName">
+            <input type="password" class="input-information" name="user-password" v-model="this.user.userPassword">
+            <button type="submit" class="input-information">LOGIN</button>
+        </main>
         
         <!-- Login Image -->
-        <div class="image">
+        <aside class="aside-information">
             <img src="">  
-        </div>
+        </aside>
     </div>
 </template>
 
 <style>
+
 .login-card{
-    width: 90%;
-    height: 90%;
+    width: 70%;
+    height: 85%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 1fr;
@@ -28,9 +28,29 @@
     background-color: red;
 }
 
+/*=====================================================*/
 .user-information{
-
+    grid-column: 1;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    background-color: #00AEF7;
 }
+
+.input-information{
+    display: block;
+}
+/*=====================================================*/
+
+
+
+
+/*=====================================================*/
+.aside-information{
+    grid-column: 2;
+}
+/*=====================================================*/
 </style>
 
 <script>
