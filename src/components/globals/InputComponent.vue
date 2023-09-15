@@ -1,6 +1,6 @@
 <template>
-    <label for="">{{labelName}}asdasd</label>
-    <input type={{inputType}} name={{inputName}} class={{inputClass}}/>
+    <label for={{idInput}}>{{labelName}}</label>
+    <input id={{idInput}} type={{inputType}} name={{inputName}} class={{inputClass}} />
 </template>
 
 <style></style>
