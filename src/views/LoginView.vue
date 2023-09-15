@@ -3,8 +3,7 @@
         <!-- Login Inputs -->
         <main class="user-information">
             <h1 class="title-information">Information</h1>
-            <input type="text" class="input-information" name="user-name" v-model="this.user.userName">
-            <input type="password" class="input-information" name="user-password" v-model="this.user.userPassword">
+            <InputComponent :labelName="Username" :inputType="text" :inputClass="n" :inputName="user-name"/>
             <button type="submit" class="input-information">LOGIN</button>
         </main>
         
@@ -33,13 +32,10 @@
     grid-column: 1;
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
     align-content: center;
     justify-content: center;
     background-color: #00AEF7;
-}
-
-.input-information{
-    display: block;
 }
 /*=====================================================*/
 
@@ -54,8 +50,14 @@
 </style>
 
 <script>
+
+import InputComponent from "../components/globals/InputComponent.vue"
+
 export default {
     name: "LoginView",
+    components:{
+        InputComponent
+    },
     data(){
         return {
             user: {
