@@ -17,9 +17,7 @@
                 <input type="password" class="input-login" name="user-password" v-model="user.password"/>
                 
                 <a href="#" class="link-forgot-password">Forgot password?</a>
-
                 <button @click="login" class="btn-login">Login</button>
-
                 <a href="#" class="link-create-account">Create Account</a>
             </div>
         </main>
