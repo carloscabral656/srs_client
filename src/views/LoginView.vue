@@ -91,6 +91,7 @@ body{
             font-size: 1.2rem;
             border-radius: 10px;
             margin-bottom: 20px;
+            border: 0;
         }
 
         .link-create-account{
