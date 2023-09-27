@@ -13,10 +13,16 @@
                 <h1 class="title-login">Login</h1>
 
                 <label>Username</label>
-                <input type="text" class="input-login" name="user-name" v-model="user.name"/>
+                <div class="container-input-login">
+                    <font-awesome-icon icon="user"/>
+                    <input type="text" class="input-login" name="user-name" v-model="user.name"/>
+                </div>
 
                 <label>Password</label>
-                <input type="password" class="input-login" name="user-password" v-model="user.password"/>
+                <div class="container-input-login">
+                    <font-awesome-icon icon="fa-key"/>
+                    <input type="password" class="input-login" name="user-password" v-model="user.password"/>
+                </div>
                 
                 <a href="#" class="link link-forgot-password">Forgot password?</a>
                 <button @click="login" class="btn-login">Login</button>
@@ -102,11 +108,14 @@ body{
             font-size: 2rem;
         }
 
-        .input-login{
+        .container-input-login {
             margin-bottom: 50px;
+            border-bottom: 1px solid black;
+        }
+
+        .input-login{
             border: 0;
             padding: 1rem;
-            border-bottom: 1px solid black;
             outline: none;
         }
 
