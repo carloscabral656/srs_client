@@ -1,6 +1,5 @@
 <template>
   <LoginView/>
-  <Toast />
 </template>
 
 <style>
@@ -21,13 +20,11 @@ body{
 
 <script>
 import LoginView from './views/LoginView.vue'
-import Toast from './components/globals/Toast.vue';
 
 export default {
   name: 'App',
   components: {
-    LoginView,
-    Toast
+    LoginView
   }
 }
 </script>

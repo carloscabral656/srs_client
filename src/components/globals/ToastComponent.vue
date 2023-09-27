@@ -11,7 +11,7 @@
 
 <script>
 export default {
-    name: 'Toast',
+    name: 'ToastComponent',
     props: {
         msg: String
     },
