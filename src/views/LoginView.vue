@@ -160,7 +160,7 @@ export default {
     components:{
 
     },
-    data(){
+    data() {
         return {
             user: {
                 name: null,
@@ -172,7 +172,7 @@ export default {
         partOfTheDay(){
             let hour = new Date().getHours();
             if(hour >= 2 && hour <= 12){
-                    return 'Morning'
+                return 'Morning'
             } else if (hour <= 18){
                 return 'Afternoon'
             } else if (hour <= 22){
@@ -183,11 +183,8 @@ export default {
         }
     },
     methods: {
-        login(){
-            alert("asdasdasd")
-        },
         validate(){
-            
+            // TODO: Call Vuex 
         }
     }
 }

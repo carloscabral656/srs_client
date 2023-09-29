@@ -1,5 +1,5 @@
 <template>
-  <LoginView/>
+  <IndexView/>
 </template>
 
 <style>
@@ -22,12 +22,12 @@ body{
 </style>
 
 <script>
-import LoginView from './views/LoginView.vue'
+import IndexView from './views/IndexView.vue'
 
 export default {
   name: 'App',
   components: {
-    LoginView
+    IndexView
   }
 }
 </script>
