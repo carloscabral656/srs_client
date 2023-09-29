@@ -44,24 +44,24 @@
 }
 
 #search-input{
-    grid-column: 3/6;
+    grid-column: 3/7;
     justify-self: stretch;
     border-radius: 50px;
     padding: 1rem;
 }
 
 #create-container{
-    grid-column: 7/9;
-    justify-content: center;
+    grid-column: 9/10;
+    justify-self: end;
 }
     
 
 #login-page{
-    grid-column: 9/11;
+    grid-column: 10/12;
 }
 
 #create-account-page{
-    grid-column: 11/13;
+    grid-column: 12/13;
 }
 </style>
 
