@@ -13,10 +13,7 @@ body{
 #app{
   width: 100vw;
   height: 100vh;
-  display: flex;
-  flex-wrap: wrap;
-  align-content: center;
-  justify-content: center;
+  font-size: 1rem;
   font-family: 'Montserrat', sans-serif;
 }
 </style>
