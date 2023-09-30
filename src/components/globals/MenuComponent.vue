@@ -1,6 +1,7 @@
 <template>
     <div id="menu-container">
         <div id="project-image">Project's Image</div>
+        <div id="topics">Topics</div>
         <input type="text" id="search-input" placeholder="Search anyting here ...">
         <div id="create-container">
             <ButtonComponent
@@ -43,21 +44,25 @@
     justify-content: start;
 }
 
+#topics{
+    grid-column: 3/4;
+}
+
 #search-input{
-    grid-column: 3/7;
+    grid-column: 4/10;
     justify-self: stretch;
     border-radius: 50px;
     padding: 1rem;
 }
 
 #create-container{
-    grid-column: 9/10;
+    grid-column: 10/11;
     justify-self: end;
 }
     
 
 #login-page{
-    grid-column: 10/12;
+    grid-column: 11/12;
 }
 
 #create-account-page{
