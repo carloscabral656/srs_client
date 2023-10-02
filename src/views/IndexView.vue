@@ -4,18 +4,18 @@
     <!-- Some text to describe the project -->
     <SectionComponent 
         :firstColumn="{
-            title: 'Teste 1',
-            content: 'teste content'
+            title: 'Dolor nulla occaecat sit cillum do tempor elit occaecat.',
+            content: 'Lorem enim sint velit id in pariatur irure qui nisi nostrud ullamco anim. Veniam eiusmod elit ullamco nostrud cupidatat elit quis ex. Minim veniam irure sit anim qui occaecat et est exercitation eiusmod ut. Veniam elit et Lorem exercitation fugiat cillum exercitation sunt do mollit officia Lorem elit. Exercitation ut nostrud pariatur nostrud et sunt commodo. Laboris sint velit fugiat elit qui fugiat aliqua labore commodo commodo in. Consequat cupidatat occaecat do nulla reprehenderit ullamco minim quis. Quis cillum commodo irure veniam aliqua adipisicing ipsum qui nisi irure amet sit aliquip ipsum.'
         }"
         :secondColumn="{
-            title: 'Teste 2',
-            content: 'teste content 2'
+            title: 'Dolor nulla occaecat sit cillum do tempor elit occaecat.',
+            content: 'Lorem enim sint velit id in pariatur irure qui nisi nostrud ullamco anim. Veniam eiusmod elit ullamco nostrud cupidatat elit quis ex. Minim veniam irure sit anim qui occaecat et est exercitation eiusmod ut. Veniam elit et Lorem exercitation fugiat cillum exercitation sunt do mollit officia Lorem elit. Exercitation ut nostrud pariatur nostrud et sunt commodo. Laboris sint velit fugiat elit qui fugiat aliqua labore commodo commodo in. Consequat cupidatat occaecat do nulla reprehenderit ullamco minim quis. Quis cillum commodo irure veniam aliqua adipisicing ipsum qui nisi irure amet sit aliquip ipsum.'
         }"
     />
 
 </template>
 
-<style>
+<style scoped>
 </style>
 
 <script>

@@ -29,7 +29,7 @@
     </div>
 </template>
 
-<style>
+<style scoped>
 #menu-container{
     display: grid;
     grid-template-columns: repeat(12, 1fr);
